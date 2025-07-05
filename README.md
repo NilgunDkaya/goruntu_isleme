@@ -39,15 +39,6 @@ Batch Size: 32
 
 ![Figure2](https://github.com/user-attachments/assets/927786f6-455d-4637-b199-7538e2b69d42)
 
-# Classification Report (örnek)
-              precision    recall  f1-score   support
-
- without_mask       0.98      0.95      0.96       200
-    with_mask       0.95      0.98      0.96       200
-
-    accuracy                           0.96       400
-   macro avg       0.96      0.96      0.96       400
-weighted avg       0.96      0.96      0.96       400
 
 
 
