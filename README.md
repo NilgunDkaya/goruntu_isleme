@@ -34,6 +34,11 @@ Batch Size: 32
 
 🎯 Eğitim Sonuçları
 
+![Figure1](https://github.com/user-attachments/assets/e332e61c-4412-4ef1-9e4f-cda8a1c4be68)
+
+
+![Figure2](https://github.com/user-attachments/assets/927786f6-455d-4637-b199-7538e2b69d42)
+
 
 
 ```python
@@ -48,9 +53,3 @@ x = Dropout(0.5)(x)
 predictions = Dense(1, activation='sigmoid')(x)
 
 model = Model(inputs=base_model.input, outputs=predictions) ```
-
-
-
-![Figure2](https://gith![Figure1](https://github.com/user-attachments/assets/76f1a7df-e4cb-4d25-b304-741783ff500e)
-ub.com/user-attachments/assets/da8fc029-2919-4e60-b216-babbdc7b53bb)
-![Figure1](https://github.com/user-attachments/assets/85ece279-8323-40eb-ad24-4c09eb8a78b6)
