@@ -26,7 +26,7 @@ x = Dense(128, activation='relu')(x)
 x = Dropout(0.5)(x)
 predictions = Dense(1, activation='sigmoid')(x)
 
-model = Model(inputs=base_model.input, outputs=predictions)
+model = Model(inputs=base_model.input, outputs=predictions) ```
 
 📊 Eğitim Süreci ve Metrikler
 Veri Seti: Face Mask Detection Dataset (with_mask & without_mask)
@@ -46,9 +46,5 @@ Epochs: 10
 Batch Size: 32
 
 🎯 Eğitim Sonuçları
-
-![Figure1](https://github.com/user-attachments/assets/7f6e3d13-75dd-4d5c-b892-1d1d544dacfb)
-
-![Figure2](https://github.com/user-attachments/assets/4da0693d-1d9d-4bbe-8779-09717b6bb8dd)
 
 
